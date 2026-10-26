@@ -1,0 +1,47 @@
+# === Python / Environment Patterns ===
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Anaconda / Virtual Environments
+.conda/
+env/
+venv/
+ENV/
+.env
+.venv
+venv
+
+# === Jupyter Notebook Patterns ===
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Optional: Uncomment if you don't want to commit raw data checkpoints
+# .jupyter/
+
+# === Operating System Specifics ===
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V1
+.fseventsd
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# === Code Editor Settings ===
+# VS Code
+.vscode/
+!.vscode/extensions.json
+.history/
+*.code-workspace
+
+# === Project Data Files (Highly Recommended) ===
+# This stops your large extracted data files from bloating your GitHub repo
+*.csv
+*.xlsx
+*.json
+*.sqlite
